@@ -1,11 +1,12 @@
 import torch
 from torch.utils.data import DataLoader
 
-from data import split
+from data import split, augment
 from model import model, criterion, optimizer
 
 batch_size = 64
-epochs = 15
+epochs = 50
+patience = 5
 seed = 42
 
 torch.manual_seed(seed)
@@ -15,10 +16,12 @@ valid_loader = DataLoader(split("valid"), batch_size=256)
 test_loader = DataLoader(split("test"), batch_size=256)
 
 best_acc = 0.0
+stale = 0
 for epoch in range(1, epochs + 1):
     model.train()
     train_loss = 0.0
     for x, y in train_loader:
+        x = augment(x)
         optimizer.zero_grad()
         loss = criterion(model(x), y)
         loss.backward()
@@ -40,9 +43,16 @@ for epoch in range(1, epochs + 1):
     # keep the best-on-validation weights, not whatever the last epoch happens to be
     if valid_acc > best_acc:
         best_acc = valid_acc
+        stale = 0
         torch.save(model.state_dict(), "model.pt")
+    else:
+        stale += 1
 
     print(f"epoch {epoch:2d}  train loss {train_loss:.4f}  val loss {valid_loss:.4f}  val acc {valid_acc:.4f}")
+
+    if stale >= patience:
+        print(f"no val improvement in {patience} epochs, stopping at epoch {epoch}")
+        break
 
 # test only once, with the best checkpoint - the held-out writers are the honest number
 model.load_state_dict(torch.load("model.pt"))
