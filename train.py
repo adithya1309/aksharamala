@@ -6,7 +6,7 @@ from model import model, criterion, optimizer
 
 batch_size = 64
 epochs = 50
-patience = 5
+patience = 8  # dropout makes the val curve noisier; 5 trips on a random dip
 seed = 42
 
 torch.manual_seed(seed)

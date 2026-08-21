@@ -3,6 +3,7 @@ import torch.nn as nn
 
 from data import NUM_CLASSES
 
+dropout = 0.5
 learning_rate = 0.001  # 0.005 collapses to uniform: loss parks at ln(85)=4.44 and never moves
 
 # 32x32 -> 16 -> 8 -> 4 after the three pools
@@ -21,6 +22,7 @@ model = nn.Sequential(
     nn.ReLU(),
     nn.MaxPool2d(2),
     nn.Flatten(),
+    nn.Dropout(dropout),
     nn.Linear(128 * 4 * 4, 256),
     nn.ReLU(),
     nn.Linear(256, NUM_CLASSES),
