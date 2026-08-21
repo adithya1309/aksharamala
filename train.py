@@ -5,8 +5,8 @@ from data import split, augment
 from model import model, criterion, optimizer
 
 batch_size = 64
-epochs = 50
-patience = 8  # dropout makes the val curve noisier; 5 trips on a random dip
+epochs = 75
+patience = 15  # plateaus here run 10+ epochs; 7 ended a run mid-climb
 seed = 42
 
 torch.manual_seed(seed)
@@ -54,7 +54,7 @@ for epoch in range(1, epochs + 1):
         print(f"no val improvement in {patience} epochs, stopping at epoch {epoch}")
         break
 
-# test only once, with the best checkpoint - the held-out writers are the honest number
+# test only once, with the best checkpoint — the held-out writers are the honest number
 model.load_state_dict(torch.load("model.pt"))
 model.eval()
 correct = 0
