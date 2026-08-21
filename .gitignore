@@ -1,0 +1,8 @@
+handwritten/
+*.zip
+__pycache__/
+
+# experiment checkpoints; model.pt is the one that ships
+model_noaug.pt
+model_aug.pt
+model_drop50.pt
