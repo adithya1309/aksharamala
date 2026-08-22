@@ -1,12 +1,19 @@
+# third-party data, never redistributed
 handwritten/
+handwritten.zip
 *.zip
-__pycache__/
 
-# experiment checkpoints; model.pt is the one that ships
-model_noaug.pt
-model_aug.pt
-model_drop50.pt
-model_95.pt
+# checkpoints: regenerate with train.py, model.onnx is the artifact that ships
+*.pt
+
+# generated diagnostics
+confusion.png
 orient.png
 orient2.png
-model_pretranspose.pt
+
+CLAUDE.md
+__pycache__/
+
+# copied from the repo root by hand; the root files are the source of truth
+app/model.onnx
+app/labels.json

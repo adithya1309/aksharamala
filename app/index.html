@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Malayalam handwriting practice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Write this character</h1>
+
+  <section id="prompt">
+    <div id="target">&nbsp;</div>
+    <div id="translit">loading model...</div>
+    <div id="study">
+      <button id="cover">Cover</button>
+      <label><input type="checkbox" id="autocover"> start each question covered</label>
+    </div>
+  </section>
+
+  <canvas id="pad" width="320" height="320"></canvas>
+
+  <div id="tools">
+    <button id="pencil" class="active">Pencil</button>
+    <button id="eraser">Eraser</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="actions">
+    <button id="submit" disabled>Submit</button>
+    <button id="skip">Skip</button>
+    <button id="next" hidden>Next question</button>
+  </div>
+
+  <section id="verdict" hidden>
+    <p id="headline"></p>
+    <ul id="alternatives"></ul>
+  </section>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.19.2/dist/ort.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
