@@ -4,9 +4,9 @@ import torch.nn as nn
 from data import NUM_CLASSES
 
 dropout = 0.5
-learning_rate = 0.001  # 0.005 collapses to uniform: loss parks at ln(85)=4.44 and never moves
+learning_rate = 0.001  
 
-# 32x32 -> 16 -> 8 -> 4 after the three pools
+
 model = nn.Sequential(
     nn.Conv2d(1, 32, 3, padding=1),
     nn.ReLU(),
@@ -28,7 +28,7 @@ model = nn.Sequential(
     nn.Linear(256, NUM_CLASSES),
 )
 
-# CrossEntropyLoss takes raw logits, so the net ends at the linear layer
+
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
 
