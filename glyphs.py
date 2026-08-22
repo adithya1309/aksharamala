@@ -18,8 +18,8 @@ CHARACTERS = [
     ("\u0D2F", "ya"), ("\u0D30", "ra"), ("\u0D31", "rra"), ("\u0D32", "la"), ("\u0D33", "lla"),
     ("\u0D34", "zha"), ("\u0D35", "va"), ("\u0D36", "sha"), ("\u0D37", "ssa"), ("\u0D38", "sa"),
     ("\u0D39", "ha"),
-    # 55-59 chillus. 55 is the one the anchors leave over
-    ("\u0D7B", "chillu n"), ("\u0D7A", "chillu nn"), ("\u0D7C", "chillu r"),
+    # 55-59 chillus, in Table 1 order
+    ("ൺ", "chillu nn"), ("ൻ", "chillu n"), ("ർ", "chillu r"),
     ("\u0D7D", "chillu l"), ("\u0D7E", "chillu ll"),
     # 60-81 conjuncts, in the paper's Table 1 order
     ("\u0D15\u0D4D\u0D15", "kka"), ("\u0D15\u0D4D\u0D37", "ksha"), ("\u0D19\u0D4D\u0D15", "nka"),

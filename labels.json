@@ -331,15 +331,15 @@
  },
  {
   "index": 55,
-  "char": "ൻ",
-  "transliteration": "chillu n",
-  "display": "ൻ"
- },
- {
-  "index": 56,
   "char": "ൺ",
   "transliteration": "chillu nn",
   "display": "ൺ"
+ },
+ {
+  "index": 56,
+  "char": "ൻ",
+  "transliteration": "chillu n",
+  "display": "ൻ"
  },
  {
   "index": 57,
