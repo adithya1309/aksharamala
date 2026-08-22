@@ -1,0 +1,512 @@
+[
+ {
+  "index": 0,
+  "char": "്",
+  "transliteration": "virama",
+  "display": "◌്"
+ },
+ {
+  "index": 1,
+  "char": "ാ",
+  "transliteration": "aa",
+  "display": "◌ാ"
+ },
+ {
+  "index": 2,
+  "char": "ി",
+  "transliteration": "i",
+  "display": "◌ി"
+ },
+ {
+  "index": 3,
+  "char": "ീ",
+  "transliteration": "ii",
+  "display": "◌ീ"
+ },
+ {
+  "index": 4,
+  "char": "ു",
+  "transliteration": "u",
+  "display": "◌ു"
+ },
+ {
+  "index": 5,
+  "char": "ൂ",
+  "transliteration": "uu",
+  "display": "◌ൂ"
+ },
+ {
+  "index": 6,
+  "char": "ൄ",
+  "transliteration": "vocalic r",
+  "display": "◌ൄ"
+ },
+ {
+  "index": 7,
+  "char": "െ",
+  "transliteration": "e",
+  "display": "◌െ"
+ },
+ {
+  "index": 8,
+  "char": "േ",
+  "transliteration": "ee",
+  "display": "◌േ"
+ },
+ {
+  "index": 9,
+  "char": "ൌ",
+  "transliteration": "au",
+  "display": "◌ൌ"
+ },
+ {
+  "index": 10,
+  "char": "ം",
+  "transliteration": "anusvara",
+  "display": "◌ം"
+ },
+ {
+  "index": 11,
+  "char": "അ",
+  "transliteration": "a",
+  "display": "അ"
+ },
+ {
+  "index": 12,
+  "char": "ആ",
+  "transliteration": "aa",
+  "display": "ആ"
+ },
+ {
+  "index": 13,
+  "char": "ഇ",
+  "transliteration": "i",
+  "display": "ഇ"
+ },
+ {
+  "index": 14,
+  "char": "ഉ",
+  "transliteration": "u",
+  "display": "ഉ"
+ },
+ {
+  "index": 15,
+  "char": "ഋ",
+  "transliteration": "vocalic r",
+  "display": "ഋ"
+ },
+ {
+  "index": 16,
+  "char": "എ",
+  "transliteration": "e",
+  "display": "എ"
+ },
+ {
+  "index": 17,
+  "char": "ഏ",
+  "transliteration": "ee",
+  "display": "ഏ"
+ },
+ {
+  "index": 18,
+  "char": "ഒ",
+  "transliteration": "o",
+  "display": "ഒ"
+ },
+ {
+  "index": 19,
+  "char": "ക",
+  "transliteration": "ka",
+  "display": "ക"
+ },
+ {
+  "index": 20,
+  "char": "ഖ",
+  "transliteration": "kha",
+  "display": "ഖ"
+ },
+ {
+  "index": 21,
+  "char": "ഗ",
+  "transliteration": "ga",
+  "display": "ഗ"
+ },
+ {
+  "index": 22,
+  "char": "ഘ",
+  "transliteration": "gha",
+  "display": "ഘ"
+ },
+ {
+  "index": 23,
+  "char": "ങ",
+  "transliteration": "nga",
+  "display": "ങ"
+ },
+ {
+  "index": 24,
+  "char": "ച",
+  "transliteration": "cha",
+  "display": "ച"
+ },
+ {
+  "index": 25,
+  "char": "ഛ",
+  "transliteration": "chha",
+  "display": "ഛ"
+ },
+ {
+  "index": 26,
+  "char": "ജ",
+  "transliteration": "ja",
+  "display": "ജ"
+ },
+ {
+  "index": 27,
+  "char": "ഝ",
+  "transliteration": "jha",
+  "display": "ഝ"
+ },
+ {
+  "index": 28,
+  "char": "ഞ",
+  "transliteration": "nya",
+  "display": "ഞ"
+ },
+ {
+  "index": 29,
+  "char": "ട",
+  "transliteration": "tta",
+  "display": "ട"
+ },
+ {
+  "index": 30,
+  "char": "ഠ",
+  "transliteration": "ttha",
+  "display": "ഠ"
+ },
+ {
+  "index": 31,
+  "char": "ഡ",
+  "transliteration": "dda",
+  "display": "ഡ"
+ },
+ {
+  "index": 32,
+  "char": "ഢ",
+  "transliteration": "ddha",
+  "display": "ഢ"
+ },
+ {
+  "index": 33,
+  "char": "ണ",
+  "transliteration": "nna",
+  "display": "ണ"
+ },
+ {
+  "index": 34,
+  "char": "ത",
+  "transliteration": "ta",
+  "display": "ത"
+ },
+ {
+  "index": 35,
+  "char": "ഥ",
+  "transliteration": "tha",
+  "display": "ഥ"
+ },
+ {
+  "index": 36,
+  "char": "ദ",
+  "transliteration": "da",
+  "display": "ദ"
+ },
+ {
+  "index": 37,
+  "char": "ധ",
+  "transliteration": "dha",
+  "display": "ധ"
+ },
+ {
+  "index": 38,
+  "char": "ന",
+  "transliteration": "na",
+  "display": "ന"
+ },
+ {
+  "index": 39,
+  "char": "പ",
+  "transliteration": "pa",
+  "display": "പ"
+ },
+ {
+  "index": 40,
+  "char": "ഫ",
+  "transliteration": "pha",
+  "display": "ഫ"
+ },
+ {
+  "index": 41,
+  "char": "ബ",
+  "transliteration": "ba",
+  "display": "ബ"
+ },
+ {
+  "index": 42,
+  "char": "ഭ",
+  "transliteration": "bha",
+  "display": "ഭ"
+ },
+ {
+  "index": 43,
+  "char": "മ",
+  "transliteration": "ma",
+  "display": "മ"
+ },
+ {
+  "index": 44,
+  "char": "യ",
+  "transliteration": "ya",
+  "display": "യ"
+ },
+ {
+  "index": 45,
+  "char": "ര",
+  "transliteration": "ra",
+  "display": "ര"
+ },
+ {
+  "index": 46,
+  "char": "റ",
+  "transliteration": "rra",
+  "display": "റ"
+ },
+ {
+  "index": 47,
+  "char": "ല",
+  "transliteration": "la",
+  "display": "ല"
+ },
+ {
+  "index": 48,
+  "char": "ള",
+  "transliteration": "lla",
+  "display": "ള"
+ },
+ {
+  "index": 49,
+  "char": "ഴ",
+  "transliteration": "zha",
+  "display": "ഴ"
+ },
+ {
+  "index": 50,
+  "char": "വ",
+  "transliteration": "va",
+  "display": "വ"
+ },
+ {
+  "index": 51,
+  "char": "ശ",
+  "transliteration": "sha",
+  "display": "ശ"
+ },
+ {
+  "index": 52,
+  "char": "ഷ",
+  "transliteration": "ssa",
+  "display": "ഷ"
+ },
+ {
+  "index": 53,
+  "char": "സ",
+  "transliteration": "sa",
+  "display": "സ"
+ },
+ {
+  "index": 54,
+  "char": "ഹ",
+  "transliteration": "ha",
+  "display": "ഹ"
+ },
+ {
+  "index": 55,
+  "char": "ൻ",
+  "transliteration": "chillu n",
+  "display": "ൻ"
+ },
+ {
+  "index": 56,
+  "char": "ൺ",
+  "transliteration": "chillu nn",
+  "display": "ൺ"
+ },
+ {
+  "index": 57,
+  "char": "ർ",
+  "transliteration": "chillu r",
+  "display": "ർ"
+ },
+ {
+  "index": 58,
+  "char": "ൽ",
+  "transliteration": "chillu l",
+  "display": "ൽ"
+ },
+ {
+  "index": 59,
+  "char": "ൾ",
+  "transliteration": "chillu ll",
+  "display": "ൾ"
+ },
+ {
+  "index": 60,
+  "char": "ക്ക",
+  "transliteration": "kka",
+  "display": "ക്ക"
+ },
+ {
+  "index": 61,
+  "char": "ക്ഷ",
+  "transliteration": "ksha",
+  "display": "ക്ഷ"
+ },
+ {
+  "index": 62,
+  "char": "ങ്ക",
+  "transliteration": "nka",
+  "display": "ങ്ക"
+ },
+ {
+  "index": 63,
+  "char": "ങ്ങ",
+  "transliteration": "nnga",
+  "display": "ങ്ങ"
+ },
+ {
+  "index": 64,
+  "char": "ച്ച",
+  "transliteration": "chcha",
+  "display": "ച്ച"
+ },
+ {
+  "index": 65,
+  "char": "ഞ്ച",
+  "transliteration": "ncha",
+  "display": "ഞ്ച"
+ },
+ {
+  "index": 66,
+  "char": "ഞ്ഞ",
+  "transliteration": "nnya",
+  "display": "ഞ്ഞ"
+ },
+ {
+  "index": 67,
+  "char": "ട്ട",
+  "transliteration": "tta",
+  "display": "ട്ട"
+ },
+ {
+  "index": 68,
+  "char": "ണ്ട",
+  "transliteration": "nta",
+  "display": "ണ്ട"
+ },
+ {
+  "index": 69,
+  "char": "ണ്ണ",
+  "transliteration": "nna",
+  "display": "ണ്ണ"
+ },
+ {
+  "index": 70,
+  "char": "ത്ത",
+  "transliteration": "ttha",
+  "display": "ത്ത"
+ },
+ {
+  "index": 71,
+  "char": "ദ്ധ",
+  "transliteration": "ddha",
+  "display": "ദ്ധ"
+ },
+ {
+  "index": 72,
+  "char": "ന്ത",
+  "transliteration": "ntha",
+  "display": "ന്ത"
+ },
+ {
+  "index": 73,
+  "char": "ന്ദ",
+  "transliteration": "nda",
+  "display": "ന്ദ"
+ },
+ {
+  "index": 74,
+  "char": "ന്ന",
+  "transliteration": "nna",
+  "display": "ന്ന"
+ },
+ {
+  "index": 75,
+  "char": "പ്പ",
+  "transliteration": "ppa",
+  "display": "പ്പ"
+ },
+ {
+  "index": 76,
+  "char": "ബ്ബ",
+  "transliteration": "bba",
+  "display": "ബ്ബ"
+ },
+ {
+  "index": 77,
+  "char": "മ്മ",
+  "transliteration": "mma",
+  "display": "മ്മ"
+ },
+ {
+  "index": 78,
+  "char": "യ്യ",
+  "transliteration": "yya",
+  "display": "യ്യ"
+ },
+ {
+  "index": 79,
+  "char": "ല്ല",
+  "transliteration": "lla",
+  "display": "ല്ല"
+ },
+ {
+  "index": 80,
+  "char": "ള്ള",
+  "transliteration": "llla",
+  "display": "ള്ള"
+ },
+ {
+  "index": 81,
+  "char": "വ്വ",
+  "transliteration": "vva",
+  "display": "വ്വ"
+ },
+ {
+  "index": 82,
+  "char": "്യ",
+  "transliteration": "ya sign",
+  "display": "◌്യ"
+ },
+ {
+  "index": 83,
+  "char": "്ര",
+  "transliteration": "ra sign",
+  "display": "◌്ര"
+ },
+ {
+  "index": 84,
+  "char": "്വ",
+  "transliteration": "va sign",
+  "display": "◌്വ"
+ }
+]
