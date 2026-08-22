@@ -1,14 +1,22 @@
 :root { color-scheme: light dark; --line: #8884; }
 body {
-  margin: 0; min-height: 100vh; display: grid; place-items: center;
+  margin: 0; height: 100dvh; overflow: hidden;  /* everything sized to fit one screen */
   font: 16px/1.5 system-ui, sans-serif;
+  display: grid; grid-template-rows: auto 1fr;  /* header row, then centred main */
 }
-main { display: grid; gap: 1rem; justify-items: center; padding: 1.5rem; }
-h1 { font-size: 1rem; font-weight: 500; opacity: 0.7; margin: 0; }
-#target { font-size: 5rem; line-height: 1.1; min-height: 5.5rem; text-align: center; }
+header { padding: clamp(0.5rem, 1.5vh, 1rem) 1.25rem; font-size: 1.05rem; font-weight: 600; letter-spacing: 0.01em; }
+main { place-self: center; display: grid; gap: clamp(0.4rem, 1.4vh, 1rem); justify-items: center; padding: 0 1.5rem clamp(0.5rem, 2vh, 1.5rem); }
+h1 { font-size: clamp(0.85rem, 2vh, 1rem); font-weight: 500; opacity: 0.7; margin: 0; }
+#target { font-size: clamp(2.5rem, 8vh, 5rem); line-height: 1.1; min-height: clamp(3rem, 9vh, 5.5rem); text-align: center; }
 #translit { text-align: center; opacity: 0.7; }
 #prompt { display: grid; justify-items: center; }
-canvas { border: 1px solid var(--line); border-radius: 8px; touch-action: none; cursor: crosshair; }
+/* the pad is always white, and the system crosshair inverts to white in dark mode,
+   so draw our own black one instead of losing the pointer on the paper */
+canvas {
+  border: 1px solid var(--line); border-radius: 8px; touch-action: none;
+  width: min(320px, 40vh); height: min(320px, 40vh);
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 3v18M3 12h18" stroke="black" stroke-width="1.5"/></svg>') 12 12, crosshair;
+}
 #tools, #actions { display: flex; gap: 0.5rem; }
 button {
   font: inherit; padding: 0.45rem 0.9rem; border: 1px solid var(--line);
@@ -17,6 +25,7 @@ button {
 button:disabled { opacity: 0.4; cursor: default; }
 button.active { border-color: currentColor; font-weight: 600; }
 #verdict { text-align: center; max-width: 22rem; }
+#verdict[hidden] { display: none; }
 #headline { font-size: 1.1rem; margin: 0 0 0.5rem; }
 #alternatives { list-style: none; padding: 0; margin: 0; opacity: 0.75; font-size: 0.9rem; }
 .right { color: #16a34a; }
