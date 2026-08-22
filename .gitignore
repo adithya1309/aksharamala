@@ -6,3 +6,6 @@ __pycache__/
 model_noaug.pt
 model_aug.pt
 model_drop50.pt
+model_95.pt
+orient.png
+orient2.png
