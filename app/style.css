@@ -4,7 +4,7 @@ body {
   font: 16px/1.5 system-ui, sans-serif;
   display: grid; grid-template-rows: auto 1fr;  /* header row, then centred main */
 }
-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: clamp(0.5rem, 1.5vh, 1rem) 1.25rem; font-size: 1.05rem; font-weight: 600; letter-spacing: 0.01em; }
+header { display: flex; align-items: center; gap: 0.75rem; padding: clamp(0.5rem, 1.5vh, 1rem) 1.25rem; font-size: 1.05rem; font-weight: 600; letter-spacing: 0.01em; }
 main { place-self: center; display: grid; gap: clamp(0.4rem, 1.4vh, 1rem); justify-items: center; padding: 0 1.5rem clamp(0.5rem, 2vh, 1.5rem); }
 h1 { font-size: clamp(0.85rem, 2vh, 1rem); font-weight: 500; opacity: 0.7; margin: 0; }
 #target { font-size: clamp(2.5rem, 8vh, 5rem); line-height: 1.1; min-height: clamp(3rem, 9vh, 5.5rem); text-align: center; }
@@ -35,7 +35,7 @@ button.active { border-color: currentColor; font-weight: 600; }
 #study label { font-size: 0.85rem; opacity: 0.7; display: flex; gap: 0.35rem; align-items: center; }
 #target.covered { opacity: 0.25; }
 #home {
-  font-size: 0.8rem; font-weight: 500; opacity: 0.7; text-decoration: none;
+  font-size: 0.8rem; font-weight: 500; opacity: 0.85; text-decoration: none;
   color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 0.2rem 0.6rem;
 }
 #home:hover { opacity: 1; }
